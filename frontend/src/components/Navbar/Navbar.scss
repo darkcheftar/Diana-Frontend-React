@@ -1,0 +1,15 @@
+nav{
+    padding:10px;
+    position:sticky;
+    top:0;
+    background-color: rgba(255, 255, 255, 0.47);
+    display: grid;
+    grid-template-columns: 8fr  repeat(2, 1fr);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    
+    filter: drop-shadow(0px 4px 14px rgba(24, 160, 251,0.12));
+    img{
+        margin:5px;
+    }
+}
