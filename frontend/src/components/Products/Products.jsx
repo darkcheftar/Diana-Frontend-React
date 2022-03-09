@@ -3,7 +3,9 @@ import moodtrack from './2.MoodTracking.png'
 import periodtrack from './3.PeriodTracking.png'
 import consultationfrom from './4.Consultation.png'
 import potion from './5.Potion.png'
+import style from './Products.module.scss'
 const Product = ({title, description, cta, bg}) =>{
+    console.log(style);
     return (
         <>
             <h1 className="title">{title}</h1>

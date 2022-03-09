@@ -1,10 +1,7 @@
 import './About.scss';
-import logo from './logo.svg';
-import philosophy from './Philosophy.svg';
 import testtube from './testtube.svg';
 import sparkle from './sparkle.svg';
 import phone from './phone.svg';
-import rewiring from './rewiring.png'
 const Simplelogo = ({image, content, alt})=>{
     return (
         <div className="simplelogo">
@@ -36,14 +33,14 @@ const About = () => {
     return (
         <>
             <section className='bg-first'>
-                <img className="title" src={logo} alt="About Diana" />
+                <p className="title">About Diana</p>
                 <p className="moto">A platform that looks out for you</p>
                 <p className="content">Diana empowers you to understand how your body works so you can look and feel your best. </p>
                 <hr />
                 <div className="philosophy">
                     <div className="heading">Our Philosophy</div>
                     {/* eslint-disable-next-line */}
-                    <img src={philosophy} alt="Sustainable wellness is a big-picture, inside out approach" className="content"/>
+                    <p className="content">Sustainable wellness is a big-picture, inside out approach</p>
                         <div className="content">
                             <div className="main">
                             Diana is on a mission to create thoughtful, science-backed solutions for women who want to make informed decisions about their health and wellness. 
@@ -59,7 +56,7 @@ const About = () => {
             <section className="bg-second">
                 <h1 className="heading">
                 What makes us different?
-                <img src={rewiring} alt="rewire" /> 
+                <p className="rewiring">Reimagining and rewiring self-care</p> 
                 </h1>
                 <div className="content">
                 <p>You care about conscious consumption, and so do we. </p>
