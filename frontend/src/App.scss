@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand&display=swap');
+html{
+  width: 100vw;
+}
+body {
+  text-align: center;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+html,body{
+  max-width: 100%;
+
+}
+@font-face {
+  font-family: Reptile;
+  src: url(./assets/Reptile-Medium.otf);
+}
+.final-about{
+  font-family: Reptile;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 3rem;
+}
