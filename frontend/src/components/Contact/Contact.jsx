@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="contact">
         <div className="socialmedia">
             <img src={fb} alt="facebook" />  
-            <img src={twitter} alt="facebook" />  
+            <img src={twitter} alt="twitter" />  
         </div>
       <ul className="links">
         <li>Products</li>
@@ -23,7 +23,7 @@ const Contact = () => {
         id="email"
         placeholder="Enter you email..."
       />
-      <button><img src={mail} style={{paddingRight:'10px',verticalAlign:"middle"}}></img>Activate</button>
+      <button><img src={mail} style={{paddingRight:'10px',verticalAlign:"middle"}} alt="mail"></img>Activate</button>
     </div>
   );
 };

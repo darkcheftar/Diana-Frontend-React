@@ -60,7 +60,6 @@ const data = [
 ];
 
 const Products = () => {
-  console.log(data);
   return (
     <>
       {data.map((attributes) => (
