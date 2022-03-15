@@ -23,7 +23,7 @@ const Contact = () => {
         id="email"
         placeholder="Enter you email..."
       />
-      <button><img src={mail} style={{paddingRight:'10px',verticalAlign:"middle"}}></img>Activate</button>
+      <button><img src={mail} style={{paddingRight:'10px',verticalAlign:"middle"}} alt="mail"></img>Activate</button>
     </div>
   );
 };
