@@ -147,3 +147,28 @@
         margin:0;
     }
 }
+
+@media (min-width: 768px) {
+    .simplelogo{
+        display: grid;
+    }
+    .simplelogo{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+
+        grid-auto-rows: minmax(min-content, 200px);
+        .content{
+            width: 400px;
+        }
+    }
+    .simplelogo:nth-of-type(odd){
+        img{
+            order:2;
+        }
+        .content{
+            order: 1;
+            
+        }
+    }
+}
